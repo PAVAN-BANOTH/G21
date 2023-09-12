@@ -22,7 +22,7 @@ public class SwapFirstAndLastIElementInArray {
 		String inputString = "Hello, World!";
         
 		if (inputString.length() >= 3) {
-            String lastThreeChars = inputString.substring(inputString.length() - 1);
+            String lastThreeChars = inputString.substring(inputString.length() - 3);
             System.out.println("Last three characters: " + lastThreeChars);
             
         } else {
