@@ -15,6 +15,7 @@ public class PrimeNo {
 
             if (count == 2) {
                 System.out.println("The number is prime");
+                System.out.print(prime + " ");
             } else {
                 System.out.println("The number is not prime");
             }
