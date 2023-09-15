@@ -1,6 +1,6 @@
 package in.pspk;
 
-package in.pavan;
+
 
 public class SortAndSquareArray {
     public static void main(String[] args) {
