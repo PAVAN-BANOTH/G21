@@ -1,5 +1,5 @@
 package in.pspk;
-
+import java.lang.*;
 import java.util.Scanner;
 
 public class DuckNumber {
