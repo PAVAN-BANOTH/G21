@@ -6,6 +6,7 @@ public class StringWordCount {
 		String str = "The Product Manager of the famous brand Parle";
 		String[] a = str.split(" ");
 		int wordCount = a.length;
+		
         
         System.out.println("Number of words: " + wordCount);
 		for(String words :a) {

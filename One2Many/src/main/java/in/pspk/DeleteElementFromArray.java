@@ -21,6 +21,7 @@ public class DeleteElementFromArray {
 
         System.out.println("Original Array: " + Arrays.toString(arr));
         System.out.println("New Array: " + Arrays.toString(newArray));
+ 
         /*int n = 143;
         while(n > 1) {
         	System.out.println("I LOVE YOU  PAVAN");

@@ -8,7 +8,7 @@ public class DistintArray {
         
         for (int i = 0; i < arr.length; i++) {
             boolean isDistinct = true;
-            for (int j = 0; j < i; j++) {
+            for (int j = i+1; j < arr.length; j++) {
                 if (arr[i] == arr[j]) {
                     isDistinct = false;
                     break;

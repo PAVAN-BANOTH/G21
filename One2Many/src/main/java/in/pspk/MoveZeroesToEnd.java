@@ -1,4 +1,4 @@
-package in.pspk;
+ package in.pspk;
 
 public class MoveZeroesToEnd {
     public static void main(String[] args) {

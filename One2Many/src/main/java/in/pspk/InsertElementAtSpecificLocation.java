@@ -20,7 +20,7 @@ public class InsertElementAtSpecificLocation {
         }
 
         // Insert the new value at the specified position
-        newArray[newPosition] = newValue;
+           newArray[newPosition] = newValue;
 
         // Copy the remaining elements from the original array to the new array
         for (int i = newPosition; i < originalArray.length; i++) {

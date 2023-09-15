@@ -3,7 +3,7 @@ package in.pspk;
 public class CapitalizeFirstLetter {
     public static void main(String[] args) {
         String inputString = "hello world";
-        String[] words = inputString.split(" ");
+        String[] words = inputString.split(" "); 
         StringBuilder result = new StringBuilder();
 
         for (String word : words) {

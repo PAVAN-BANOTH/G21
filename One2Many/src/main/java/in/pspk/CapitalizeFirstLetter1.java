@@ -10,12 +10,12 @@ public class CapitalizeFirstLetter1 {
 			char[] ch = word.toCharArray();
 			char c = ch[0];
 			String firstChar = String.valueOf(c).toUpperCase();
-			String capitalWord = firstChar;
+			//String capitalWord = firstChar;
 			for(int i = 1;i<ch.length;i++) {
-				capitalWord = capitalWord + ch[i];
+				firstChar = firstChar + ch[i];
 				
 			}
-			 finalStatement = finalStatement + capitalWord + " ";
+			 finalStatement = finalStatement + firstChar + " ";
 			 
 			
 			
